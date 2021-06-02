@@ -1,0 +1,211 @@
+*{
+    margin:0;
+    padding:0;
+    top:0;
+    left:0;
+}
+.wrap{
+    padding-top: 23px;
+    background-image: url("./images/Group\ 338.png");
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 20px;
+    
+}
+.register_logo{
+    text-align: center;
+    justify-content: center;
+}
+.register{
+    width:60%;
+    /* height:750px; */
+    margin:0 auto;
+    margin-top: 65px;
+    background-color: rgb(0,0,0,0.8);
+    
+}
+.register_title{
+    padding:45px 45px 35px 45px;
+    font-size: 34px;
+    font-weight: bolder;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.register_content{
+    padding:0 45px;
+   
+}
+.form-group{
+    display: flex; 
+    width:100%;
+    line-height: 20px;
+    justify-content: space-between;
+} 
+input{
+    border-radius: 5px;
+    height: 50px;
+    padding:5px 3px 5px 8px;
+    font-size: 16px;
+    border:none;
+    width: 47.5%;
+    
+}
+input:focus{
+    outline: none;
+}
+.form{
+    margin-top: 15px;
+}
+.form-description textarea{
+    width: 99%;
+    height:110px;
+    padding:3px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.form-description textarea:focus{
+    outline: none;
+}
+.register_button{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+}
+.btn{
+    font-size: 16px;
+    height:45px;
+    width:49.3%;
+    border-radius: 5px;
+    color:white;
+    cursor: pointer;
+    text-align: center;
+} 
+.btn:focus{
+    border: none;
+}
+.btn:hover{
+    opacity: 0.8;
+    transition: 0.5 ease-in;
+}
+.btn-back{
+    border-color: rgb(255,255,255);  
+    background-color: transparent;
+  
+} 
+.btn-next{
+    background-color: #2F9A4C;
+  
+} 
+.register_question{
+    text-align: center;
+    color:white;
+    font-size: 17px;
+    margin-top: 20px;
+    
+}
+.register_question a{
+    color: #E60A17;
+    font-weight: bold;
+    text-decoration: none;
+    
+} 
+@media (max-width:1024px){
+    input{
+        border-radius: 5px;
+        height: 50px;
+        padding:5px 3px 5px 8px;
+        font-size: 16px;
+        border:none;
+        width: 47%;
+    }
+
+}
+
+@media (min-width:740px) and (max-width:1023px){
+    .register_content{
+        padding:0 30px;
+       
+    }
+    input{
+        border-radius: 5px;
+        height: 40px;
+        padding:5px 3px 5px 8px;
+        font-size: 13px;
+        border:none;
+        width: 47%;
+    }
+    .register_title{
+        text-align: center;
+    }
+    .register{
+        width:90%;
+        margin-top: 20px;
+    }
+    .register_question{
+        font-size: 15px;
+    }
+
+}
+@media (max-width:740px){
+    .wrap{
+        background-image: url("./images/Group\ 338.png");
+        width:100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: auto;
+    }
+    .register{
+        width:100%;
+        margin-top: 20px;
+       
+    }
+    .register_title{
+        text-align: center;  
+    }
+    .register_content{
+        padding:0 20px 0 15px;
+       margin:0 auto;
+    }
+    .form-group{
+        flex-direction: column-reverse;
+        
+    }
+    input{
+        width:100%;
+        margin-top: 10px;
+        height:40px;
+    }
+    .form{
+        margin-top: 0;
+    }
+    .form-description textarea{  
+            width: 100%;
+            height:80px;
+            padding:3px;
+            font-size: 16px;
+            border-radius: 5px;
+            margin-top: 10px;
+    }
+    .register_button{
+       flex-direction: column;
+        width:100%;
+        
+    }
+    .btn{
+        width:100%;
+        color:white;
+        text-align: center;
+    }
+    .btn-back{
+
+    }
+    .btn-next{
+        margin-top: 10px;
+        
+    }
+
+}
